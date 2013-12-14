@@ -1,20 +1,15 @@
-UIColor+SocialColors
-====================
+//
+//  UIColor+SocialColors.h
+//  Source: http://www.flatui.net/social-colors/
+//
+//  Created by Rex Finn on 12/13/13.
+//  Copyright (c) 2013 Rex Finn. All rights reserved.
+//
 
-Simple UIColor category from social colors found here: http://www.flatui.net/social-colors/.
+#import <UIKit/UIKit.h>
 
-##Use:
-To use, just import the header, `UIColor+SocialColors.h`.  Then (because its a UIColor category) just use, for example:
+@interface UIColor (SocialColors)
 
-```obj-c
-UIView *view = [[UIView alloc] initWithFrame:self.view.bounds];
-view.backgroundColor = [UIColor facebookColor];
-```
-
-
-##Colors:
-
-```obj-c
 + (instancetype)androidColor;
 + (instancetype)behanceColor;
 + (instancetype)deliciousColor;
@@ -42,4 +37,5 @@ view.backgroundColor = [UIColor facebookColor];
 + (instancetype)vimeoColor;
 + (instancetype)yahooColor;
 + (instancetype)youtubeColor;
-```
+
+@end
