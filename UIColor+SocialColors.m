@@ -2,8 +2,8 @@
 //  UIColor+SocialColors.m
 //  Source: http://www.flatui.net/social-colors/
 //
-//  Created by Rex Finn on 12/13/13.
-//  Copyright (c) 2013 Rex Finn. All rights reserved.
+//  Created by Rudd Fawcett on 12/13/13.
+//  Copyright (c) 2013 Rudd Fawcett. All rights reserved.
 //
 
 #import "UIColor+SocialColors.h"
